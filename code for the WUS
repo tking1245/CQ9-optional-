@@ -16,14 +16,10 @@
                 break;
             }
         }
-        
-        
     }
-    
     return (Arrays.asList(st));
-    
-    
-
     }
-
 }
+
+time complexity: O(n+q)
+space complexity: O(1)
