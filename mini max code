@@ -12,5 +12,5 @@
     System.out.println((tot-max)+" "+(tot-min));
 
 
-Time complexity: O(n+q)
+Time complexity: O(n)
 space complexity: O(1)
