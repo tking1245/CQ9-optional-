@@ -1,0 +1,12 @@
+    long tot = arr.get(0);
+    int min = arr.get(0), max = arr.get(0);
+    for (int i = 1; i < arr.size(); i++){
+        tot += arr.get(i);
+        if (arr.get(i) < min ) {
+            min = arr.get(i);
+        }
+        if (arr.get(i) > max ) {
+            max = arr.get(i);
+        }
+    }
+    System.out.println((tot-max)+" "+(tot-min));
